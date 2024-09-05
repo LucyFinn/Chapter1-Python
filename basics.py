@@ -11,5 +11,5 @@ print("\t* \t \t* \n \t \t* \n \t*********")
 
 print()
 name = "lucy"
-lastName = "o'mahony"
+lastName = "finn"
 print(name, lastName)
