@@ -44,6 +44,7 @@ user = int(input("Please enter the number of units of electricity you've used th
 answer = (user*unit)
 print("You need to pay €",answer , "of electricity this month")
 
+#Task 7 
 print()
 fish = 4.50
 chips = 2.80
@@ -57,4 +58,3 @@ tax = 1.09
 vat = (price*tax)
 vat1 = (vat-price)
 print("Your total VAT would be €", vat1)
-
