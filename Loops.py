@@ -39,10 +39,15 @@ while num != 0:
 print("The total is:", total)
 
 #Task 5
-print("1 Calculate area of a circle")
-print("2 Calculate the volume of a sphere")
-print("3 Exit")
+print("*************************************")
+print("*\t    My Menu\t*")
+print("*************************************")
+print("* 1 Calculate area of a circle")
+print("* 2 Calculate the volume of a sphere")
+print("* 3 Exit")
+print("*************************************")
 option = int(input("Enter option (1-3): "))
+
 while (option!=3):
     if option == 1:
         r = float(input("Enter radius: "))
