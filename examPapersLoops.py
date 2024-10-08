@@ -23,4 +23,4 @@ if degree < 20:
 elif degree >=20 and  degree <=24:
     print("Temperature is just right.")
 else:
-    print("Too warm. Tuen the heating down.")
+    print("Too warm. Turn the heating down.")
