@@ -76,3 +76,31 @@ while counter < len(myList):
     counter+=1
     
 print(numSought, "found", freqNum, "times!!")
+
+myList = [1, -19, 27, 8, -5, 9]
+print(myList)
+counter = 0
+while counter < len(myList):
+    if myList[counter] < 0:
+        myList[counter] = 0
+    counter+=1
+print(myList)
+
+myList = [1, -19, 27, 8, -5, 9]
+print(myList)
+for item in myList:
+    print(item)
+
+myList = [1, -19, 27, 8, -5, 9]
+print(myList)
+for item in myList:
+    if item < 0:
+        item = 0 
+print(myList)
+
+myList = [1, -19, 27, 8, -5, 9]
+print(myList)
+for counter in range(len(myList)):
+    if myList[counter] < 0:
+        myList[counter] = 0
+print(myList)
